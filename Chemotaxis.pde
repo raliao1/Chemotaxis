@@ -33,7 +33,7 @@ Bacteria [] fast = new Bacteria[20];
      myXFast = (int)(Math.random()*300) + 100;
      myYSlow = (int)(Math.random()*400) + 50;
      myYFast = (int)(Math.random()*400) + 50;
-     myColor = color((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256));
+     myColor = color((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
      mySpeedSlow = 0.1;
      mySpeedFast = 0.25;
  }
